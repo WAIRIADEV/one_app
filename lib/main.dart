@@ -4,6 +4,19 @@ void main() {
   runApp(const MyApp());
 }
 
+String name = "SAINTTROPEZ";
+int number = 10;
+double price = 10.5;
+List<String> myList = ["headphones", "laptop", "mouse"];
+Map<String, dynamic> myMap = {"name": "SAINTTROPEZ", "age": 20, "isMale": true};
+
+
+
+
+
+
+
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -90,8 +103,8 @@ class _MyHomePageState extends State<MyHomePage> {
         // in the middle of the parent.
         child: Text(
           "hello world",
-          style: TextStyle(color: Colors.amber, fontSize: 30),
-          )
+          style: TextStyle(color: Colors.amber),
+          ),
 
 
       ),
