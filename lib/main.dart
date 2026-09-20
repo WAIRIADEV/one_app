@@ -100,8 +100,9 @@ class _MyHomePageState extends State<MyHomePage> {
         // in the middle of the parent.
         child: Container(
           
-          height: 100,
-          width: 100,
+          height: double.infinity,
+          width: double.infinity,
+          padding: const EdgeInsets.all(50),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(20), color: Colors.red,
             border: Border.all(color: Colors.amber, width: 5),
