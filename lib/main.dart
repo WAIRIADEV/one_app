@@ -107,7 +107,7 @@ class _MyHomePageState extends State<MyHomePage> {
             borderRadius: BorderRadius.circular(20), color: Colors.red,
             border: Border.all(color: Colors.amber, width: 5),
           ),
-          child: Text('$_counter', style: const TextStyle(color: Colors.amber)),
+          child: Text("hello world", style: TextStyle(fontSize: 30, color: Colors.white),),
         ),
       ),
       floatingActionButton: FloatingActionButton(
