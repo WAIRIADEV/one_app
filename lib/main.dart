@@ -87,7 +87,7 @@ class MyHomePage extends StatelessWidget {
             ),
             child: const Text(
               'Hello',
-              style: TextStyle(color: Colors.amber),
+              style: TextStyle(color: Colors.black),
             ),
           ),
         ),
