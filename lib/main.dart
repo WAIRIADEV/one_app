@@ -10,13 +10,6 @@ double price = 10.5;
 List<String> myList = ["headphones", "laptop", "mouse"];
 Map<String, dynamic> myMap = {"name": "SAINTTROPEZ", "age": 20, "isMale": true};
 
-
-
-
-
-
-
-
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -42,7 +35,10 @@ class MyApp extends StatelessWidget {
         //
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
-        colorScheme: .fromSeed(seedColor: Colors.deepPurple,brightness: Brightness.dark),
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.deepPurple,
+          brightness: Brightness.dark,
+        ),
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
@@ -102,12 +98,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
-        child: Text(
-          '$_counter',
-          style: const TextStyle(color: Colors.amber),
-          ),
-
-
+        child: Text('$_counter', style: const TextStyle(color: Colors.amber)),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
