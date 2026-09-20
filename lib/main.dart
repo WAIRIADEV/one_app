@@ -107,9 +107,12 @@ class _MyHomePageState extends State<MyHomePage> {
             color: Colors.red,
             border: Border.all(color: Colors.amber, width: 5),
           ),
+          
+
           child: Text(
             "hello world",
-            style: TextStyle(fontSize: 30, color: Colors.white),
+            style: TextStyle(fontSize: 30, color: Colors.amber, fontWeight: FontWeight.bold),
+
           ),
         ),
       ),
