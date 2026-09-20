@@ -99,11 +99,11 @@ class _MyHomePageState extends State<MyHomePage> {
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
         child: Container(
-          color: Colors.red,
+          
           height: 100,
           width: 100,
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(20),
+            borderRadius: BorderRadius.circular(20), color: Colors.red,
             border: Border.all(color: Colors.amber, width: 5),
           ),
           child: Text('$_counter', style: const TextStyle(color: Colors.amber)),
