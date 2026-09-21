@@ -72,6 +72,7 @@ class MyHomePage extends StatelessWidget {
         child: Container(
           height: double.infinity,
           width: double.infinity,
+          margin: const EdgeInsets.all(50),
           padding: const EdgeInsets.all(50),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(25),
