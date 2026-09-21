@@ -70,15 +70,27 @@ class MyHomePage extends StatelessWidget {
 
     return Scaffold(
       body: Center(
-        child: Container(
-          height: double.infinity,
-          width: double.infinity,
-          margin: const EdgeInsets.all(50),
-          padding: const EdgeInsets.all(50),
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(25),
-            color: Colors.red,
-          ),
+        child: Column(
+          children: [
+            Container(
+              width: double.infinity,
+              margin: const EdgeInsets.all(50),
+              padding: const EdgeInsets.all(50),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(25),
+                color: Colors.red,
+              ),
+            ),
+            Container(
+              width: double.infinity,
+              margin: const EdgeInsets.all(50),
+              padding: const EdgeInsets.all(50),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(25),
+                color: Colors.red,
+              ),
+            ),
+          ],
         ),
       ),
     );
