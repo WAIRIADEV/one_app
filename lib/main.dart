@@ -71,11 +71,10 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Container(
-          color: Colors.blue,
-          width: double.infinity,
+          color: Colors.black38,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.end,
-            crossAxisAlignment: CrossAxisAlignment.end,
+            mainAxisSize: MainAxisSize.min,
             children: [
               Container(
                 width: 100,
