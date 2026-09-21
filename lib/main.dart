@@ -73,7 +73,7 @@ class MyHomePage extends StatelessWidget {
         child: Column(
           children: [
             Container(
-              width: double.infinity,
+              width: 100,
               height: 100,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(25),
@@ -81,7 +81,7 @@ class MyHomePage extends StatelessWidget {
               ),
             ),
             Container(
-              width: double.infinity,
+              width: 100,
               height: 100,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(25),
