@@ -73,7 +73,6 @@ class MyHomePage extends StatelessWidget {
         child: Container(
           color: Colors.black38,
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.end,
             mainAxisSize: MainAxisSize.min,
             children: [
               Container(
