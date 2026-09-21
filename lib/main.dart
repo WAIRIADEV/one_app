@@ -74,8 +74,7 @@ class MyHomePage extends StatelessWidget {
           children: [
             Container(
               width: double.infinity,
-              margin: const EdgeInsets.all(50),
-              padding: const EdgeInsets.all(50),
+              height: 100,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(25),
                 color: Colors.red,
@@ -83,8 +82,7 @@ class MyHomePage extends StatelessWidget {
             ),
             Container(
               width: double.infinity,
-              margin: const EdgeInsets.all(50),
-              padding: const EdgeInsets.all(50),
+              height: 100,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(25),
                 color: Colors.red,
