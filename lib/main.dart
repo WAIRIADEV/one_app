@@ -69,8 +69,8 @@ class MyHomePage extends StatelessWidget {
     // than having to individually change instances of widgets.
 
     return Scaffold(
-      body: Image.network(
-        'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80',
+      body: Image.asset(
+        'assets/images/background.png',
         height: double.infinity,
         fit: BoxFit.cover,
       ),

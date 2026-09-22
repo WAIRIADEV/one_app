@@ -60,11 +60,6 @@ flutter:
   assets:
     - assets/images/
 
-  fonts:
-    - family: YourFontName
-      fonts:
-        - asset: assets/fonts/YourFontFile.ttf
-
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
