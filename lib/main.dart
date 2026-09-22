@@ -69,32 +69,7 @@ class MyHomePage extends StatelessWidget {
     // than having to individually change instances of widgets.
 
     return Scaffold(
-      body: Center(
-        child: Container(
-          color: Colors.black38,
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Container(
-                width: 100,
-                height: 100,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(25),
-                  color: Colors.red,
-                ),
-              ),
-              Container(
-                width: 100,
-                height: 100,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(25),
-                  color: Colors.red,
-                ),
-              ),
-            ],
-          ),
-        ),
-      ),
+     body : Image.network("https://logowik.com/content/uploads/images/flutter5786.jpg", fit: BoxFit.cover,)
     );
   }
 }
